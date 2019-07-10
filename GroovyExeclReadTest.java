@@ -19,8 +19,9 @@ try
 	log.info r
 for(def i=1; i < r; i++)
 {
-	def c1 = s1.getCell(0, i)
-	def c2 = s1.getCell(1, i)
+	def c1 = s1.getCell(0, i)//getCell(Column, row)
+	def c2 = s1.getCell(1, i)//getCell(Column, row)
+
 	log.info c1.getContents()
 	log.info c2.getContents()
 }
