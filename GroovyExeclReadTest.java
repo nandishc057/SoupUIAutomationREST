@@ -7,7 +7,6 @@ import java.lang.*;
 import jxl.read.biff.BiffException;
 
 Workbook wk;
-WritableWorkbook workbookCopy;
 def fr;
 
 try
